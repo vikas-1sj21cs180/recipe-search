@@ -150,7 +150,7 @@ const controlAddRecipe = async function (newRecipe) {
   // upload the recipe data
 };
 
-const init = function () {
+const init = function (){
   // controlRecipes();
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
